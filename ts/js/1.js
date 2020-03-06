@@ -14,7 +14,13 @@ notSure = "maybe a string instead";
 var u = undefined;
 var n = null;
 function error(message) { throw new Error(message); }
-function readFile(file, callback) {
-    fs.readFile(file, callback);
-}
+var o = { a: 1, b: '2' };
+var o1 = new Object({ a: 1, b: '2' });
+var core = function (a, b) {
+    return [a, b];
+};
+var obj1 = 0.5 < Math.random() ? 1 : [1];
+obj1.push(1);
+obj1.push(1);
+var a1 = 'top';
 //# sourceMappingURL=1.js.map

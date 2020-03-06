@@ -26,3 +26,12 @@ interface SquareConfig {
 interface SearchFunc {
     (source: string, subString: string): boolean;
 }
+declare const o: object;
+declare const o1: Object;
+interface Core {
+    (n: number, s: string): [number, string];
+}
+declare const core: Core;
+declare let obj1: number | number[];
+declare type A1 = 'top' | 'right' | 'bottom' | 'left';
+declare let a1: A1;
